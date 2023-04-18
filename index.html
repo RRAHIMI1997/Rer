@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=" 1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>JS Documentation</title>
+</head>
+
+<body>
+
+  <main id="main-doc">
+
+
+    <nav id="navbar">
+      <header id="header">JS Documentation</header>
+      <ul>
+        <li> <a href="#introduction" class="nav-link"> Introduction </a> </li>
+        <li> <a href="#prerequisites" class="nav-link"> Prerequisites </a> </li>
+        <li> <a href="#Java_and_Javascript" class="nav-link"> Java and Javascript </a> </li>
+        <li> <a href="#Hello_World" class="nav-link"> Hello World </a> </li>
+        <li> <a href="#data_types" class="nav-link"> Data types </a> </li>
+        <li> <a href="#variables" class="nav-link"> Variables </a> </li>
+        <li> <a href="#if...else_statement" class="nav-link"> If...else Statement </a> </li>
+        <li> <a href="#reference" class="nav-link"> Reference </a> </li>
+      </ul>
+    </nav>
+
+    <section class="main-section" id="introduction">
+
+      <header> Introduction </header>
+      <p> JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language.
+        Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its
+        environment to provide programmatic control over them.
+
+      </p>
+    </section>
+
+    <section class="main-section" id="prerequisites">
+      <header> Prerequisites </header>
+      <p>
+        This guide assumes you have the following basic background:
+      <ul>
+        <li> A general understanding of the Internet and the World Wide Web (WWW). </li>
+        <li> Good working knowledge of HyperText Markup Language (HTML). </li>
+        <li> Some programming experience. If you are new to programming, try one of the tutorials linked on the main
+          page about JavaScript.</li>
+      </ul>
+      </p>
+    </section>
+
+    <section class="main-section" id="Java_and_Javascript">
+      <header> Java and Javascript </header>
+      <p> JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
+        language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most
+        Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was
+        renamed from LiveScript to JavaScript.
+      </p>
+    </section>
+
+    <section class="main-section" id="Hello_World">
+      <header> Hello World</header>
+      <p> To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
+        code:
+
+        <code> function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World"); </code>
+        Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!browser!
+      </p>
+    </section>
+
+    <section class="main-section" id="data_types">
+      <header> Data Types </header>
+      <p> The latest ECMAScript standard defines seven data types:
+      <ul>
+        <li>Six data types that are primitives:
+          <ul>
+            <li>Boolean. true and false.</li>
+            <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the
+              same as Null, NULL, or any other variant.</li>
+            <li>undefined. A top-level property whose value is undefined.</li>
+            <li>Number. 42 or 3.14159. </li>
+            <li>String. "Howdy"</li>
+            <li> Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable. </li>
+          </ul>
+        <li> and Object </li>
+      </ul>
+    </section>
+    <main />
+
+</html>
